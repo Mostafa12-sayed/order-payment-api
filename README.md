@@ -4,14 +4,6 @@ This is a simple Laravel 12 API that handles order payment and user point update
 
 ---
 
-## ⚙️ Requirements
-- PHP 8.2+
-- Composer
-- MySQL 
-- Laravel 12
-
----
-
 ## 🚀 Installation Steps
 
 ### 1️⃣ Clone the project
@@ -74,9 +66,8 @@ php artisan serve
 ### ▶️ Test APi
 ```http
 POST http://api/orders/pay
-with 
 {
-  "order_id": 1
+  "order_id": order_number
 }
 
 ```
